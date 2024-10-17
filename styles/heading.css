@@ -91,46 +91,15 @@ a {
 
 /* tablet 768px - 1024px */
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-  /* .nav {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    list-style: none;
-    color: white;
-    padding: 10px 20px;
-    background-color: black;
-  }
-
+@media screen and (min-width: 768px) {
   .nav-list-mobile {
     display: flex;
-    list-style: none;
-    background-color: black;
-    height: auto;
     flex-direction: row;
-    justify-content: center;
+    position: static;
+    gap: 20px;
+    padding-right: 15px;
     align-items: center;
-    gap: 10px;
-  } */
-
-  /* .nav-list-mobile ul,
-  li,
-  a {
-    display: inline-block;
-    color: white;
-  } */
-
-  .nav-list {
-    display: flex;
-    gap: 15px;
   }
-
-  .nav-list li,
-  a {
-    text-decoration: none;
-    font-size: 15px;
-  }
-
   .checkbtn {
     display: none;
   }
